@@ -4,6 +4,7 @@ int main(){
     int asum = 0;
     int bsum = 0;
     int sw = 0;
+    
 
     while(i < 100){
         i = i + 1;
