@@ -11,4 +11,5 @@ int main(){
         j = k;
     }
     printf("30항까지 덧셈 결과 = %d \n", sum);
+
 }
