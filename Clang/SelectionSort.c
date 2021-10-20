@@ -5,6 +5,7 @@ int main(){
     int i, j, t;
     int a[5] = {5, 3, 1, 4, 2};
 
+
     for(i = 0; i <= 3; i++){
         for(j = 1; j <= 4; j++){
             if(a[i] > a[j]){
