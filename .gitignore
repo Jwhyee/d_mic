@@ -54,3 +54,12 @@ dkms.conf
 
 #kotlin
 *.jar
+
+# Clang
+## Ignore all
+*
+## Unignore all with extensions
+!*.*
+## Unignore all dirs
+!*/
+!/**/
