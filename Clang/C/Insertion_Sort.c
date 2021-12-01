@@ -1,3 +1,6 @@
+// 정렬 알고리즘
+// 삽입 정렬
+
 #include<stdio.h>
 int main(){
     int i, j, key;

@@ -1,3 +1,5 @@
+// 정렬 알고리즘
+// 버블 정렬
 #include <stdio.h>
 int main(){
     int i, j, t;
