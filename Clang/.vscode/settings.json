@@ -2,6 +2,10 @@
     "files.associations": {
         "algorithm": "c",
         "stdio.h": "c",
-        "iostream": "cpp"
+        "iostream": "cpp",
+        "__locale": "c",
+        "__string": "c",
+        "string": "c",
+        "string_view": "c"
     }
 }

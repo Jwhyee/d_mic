@@ -3,24 +3,24 @@
 
 #include<stdio.h>
 int main(){
-    int aryNum, aryMax, m, key;
+    int aryMin, aryMax, m, key;
     int array[10] = {1, 3, 5, 7, 9, 11, 13, 15, 17, 19};
 
-    aryNum = 0;
-    aryMax = 9;
-    key = 7;
+    aryMin = 0;
+    aryMax = sizeof(array) / sizeof(int);
+    key = 11;
 
-    while(aryNum <= aryMax){
-        m = (int)((aryNum + aryMax) / 2);
+    while(aryMin <= aryMax){
+        m = (int)((aryMin + aryMax) / 2);
 
         if(array[m] > key)
             aryMax = m - 1;
         else if(array[m] < key)
-            aryNum = m + 1;
+            aryMin = m + 1;
         else
             break;
     }
-    if(aryNum > aryMax)
+    if(aryMin > aryMax)
         printf("%d", 99);
     else
         printf("%d", m);
